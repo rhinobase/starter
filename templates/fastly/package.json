@@ -1,0 +1,19 @@
+{
+  "name": "fastly",
+  "scripts": {
+    "dev": "fastly compute serve --watch",
+    "prebuild": "node ./build.js",
+    "build": "js-compute-runtime bin/index.js bin/main.wasm",
+    "deploy": "fastly compute publish"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.4"
+  },
+  "dependencies": {
+    "@fastly/js-compute": "3.7.0",
+    "@neondatabase/serverless": "^0.9.4",
+    "drizzle-orm": "^0.32.1",
+    "hono": "^4.5.1",
+    "honohub": "^0.2.3"
+  }
+}
