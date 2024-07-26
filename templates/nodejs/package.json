@@ -1,26 +1,17 @@
 {
   "name": "nodejs",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "build": "vite build"
+    "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
     "@hono/node-server": "^1.12.0",
-    "@honohub/graphql": "^0.2.3",
     "@neondatabase/serverless": "^0.9.4",
-    "drizzle-orm": "^0.32.0",
-    "hono": "4.4.11",
-    "honohub": "^0.2.2",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "drizzle-orm": "^0.32.1",
+    "hono": "^4.5.1",
+    "honohub": "^0.2.3"
   },
   "devDependencies": {
-    "@honohub/vite": "^0.1.4",
     "@types/node": "^20.11.17",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "tsx": "^4.7.1",
-    "vite": "^5.3.3"
+    "tsx": "^4.7.1"
   }
 }

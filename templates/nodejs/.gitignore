@@ -26,7 +26,3 @@ lerna-debug.log*
 
 # misc
 .DS_Store
-
-# honohub
-.honohub
-dist
