@@ -13,6 +13,9 @@ export default defineHub({
     defineCollection({
       slug: "todos",
       schema: schema.todos,
+      pagination: {
+        defaultLimit: 10,
+      },
     }),
   ],
 });
